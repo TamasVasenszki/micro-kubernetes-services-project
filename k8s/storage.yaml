@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: storage-container
-          image: storage-service
+          image: storage-service:v1
           imagePullPolicy: Never
           ports:
             - containerPort: 3001
